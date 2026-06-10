@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>table diary</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="css\style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+
+<body>
+
+    <!--sprite-->
+    <svg style="display: none;">
+        <symbol id="Layer" viewBox="0 0 1583 345">
+            <g>
+                <path fill-rule="evenodd" class="shp0"
+                    d="M190.21 0.87C270.99 8.86 336.32 74.12 344.32 154.81C355.13 263.83 264.15 354.71 154.99 343.91C74.21 335.92 8.87 270.67 0.88 189.98C-9.94 80.95 81.05 -9.92 190.21 0.87ZM184.6 263.58C225.59 258.38 258.68 225.32 263.9 184.38C271.54 124.32 220.74 73.57 160.6 81.21C119.61 86.41 86.51 119.47 81.3 160.41C73.66 220.47 124.46 271.22 184.6 263.58ZM689.6 7.69C699.19 7.69 704.65 18.66 698.85 26.29L524.06 256.63L661.01 256.63C685.97 256.63 705.63 279.31 700.45 305.17C696.65 324.12 678.85 337.07 659.49 337.07L385.1 337.07C375.6 337.07 370.19 326.21 375.93 318.64L550.86 88.14L438.45 88.14C419.1 88.14 401.3 75.19 397.5 56.23C392.32 30.38 411.98 7.69 436.94 7.69L689.6 7.69ZM1533.41 8.61C1559.47 3.13 1582.43 22.84 1582.43 47.91L1582.43 325.47C1582.43 335.15 1571.23 340.56 1563.63 334.54L1345.67 161.83L1345.67 296.92C1345.67 321.99 1322.72 341.7 1296.65 336.22C1277.96 332.29 1265.14 314.92 1265.14 295.85L1265.14 19.29C1265.14 9.61 1276.33 4.2 1283.93 10.22L1501.89 182.94L1501.89 48.98C1501.89 29.91 1514.72 12.54 1533.41 8.61ZM965.9 0C1099.34 0 1207.52 77.16 1207.52 172.35C1207.52 267.53 1099.34 344.69 965.9 344.69C832.46 344.69 724.29 267.53 724.29 172.35C724.29 77.16 832.46 0 965.9 0ZM804.83 172.35C804.83 215.73 873.71 264.25 965.9 264.25C1058.09 264.25 1126.97 215.73 1126.97 172.35C1126.97 128.97 1058.09 80.44 965.9 80.44C873.71 80.44 804.83 128.96 804.83 172.35Z" />
+            </g>
+        </symbol>
+
+        <symbol id="XMLID_807_" viewBox="0 0 304.36 304.36">
+            <g>
+                <path style="fill-rule:evenodd;clip-rule:evenodd;"
+                    d="M261.945,175.576c10.096,9.857,20.752,19.131,29.807,29.982 c4,4.822,7.787,9.798,10.684,15.394c4.105,7.955,0.387,16.709-6.746,17.184l-44.34-0.02c-11.436,0.949-20.559-3.655-28.23-11.474 c-6.139-6.253-11.824-12.908-17.727-19.372c-2.42-2.642-4.953-5.128-7.979-7.093c-6.053-3.929-11.307-2.726-14.766,3.587 c-3.523,6.421-4.322,13.531-4.668,20.687c-0.475,10.441-3.631,13.186-14.119,13.664c-22.414,1.057-43.686-2.334-63.447-13.641 c-17.422-9.968-30.932-24.04-42.691-39.971C34.828,153.482,17.295,119.395,1.537,84.353C-2.01,76.458,0.584,72.22,9.295,72.07 c14.465-0.281,28.928-0.261,43.41-0.02c5.879,0.086,9.771,3.458,12.041,9.012c7.826,19.243,17.402,37.551,29.422,54.521 c3.201,4.518,6.465,9.036,11.113,12.216c5.142,3.521,9.057,2.354,11.476-3.374c1.535-3.632,2.207-7.544,2.553-11.434 c1.146-13.383,1.297-26.743-0.713-40.079c-1.234-8.323-5.922-13.711-14.227-15.286c-4.238-0.803-3.607-2.38-1.555-4.799 c3.564-4.172,6.916-6.769,13.598-6.769h50.111c7.889,1.557,9.641,5.101,10.721,13.039l0.043,55.663 c-0.086,3.073,1.535,12.192,7.07,14.226c4.43,1.448,7.35-2.096,10.008-4.905c11.998-12.734,20.561-27.783,28.211-43.366 c3.395-6.852,6.314-13.968,9.143-21.078c2.096-5.276,5.385-7.872,11.328-7.757l48.229,0.043c1.43,0,2.877,0.021,4.262,0.258 c8.127,1.385,10.354,4.881,7.844,12.817c-3.955,12.451-11.65,22.827-19.174,33.251c-8.043,11.129-16.645,21.877-24.621,33.072 C252.26,161.544,252.842,166.697,261.945,175.576L261.945,175.576z M261.945,175.576">
+                </path>
+            </g>
+        </symbol>
+
+        <symbol id="Layer_1" viewBox="0 0 1000 116.67">
+            <g>
+                <path class="cls-1"
+                    d="M30.52,556.2,0,443.68H20L43.47,530.1l25.14-86.43H87.27l25.22,86.88,23.56-86.86,20,0L125.54,556.18l-23.21,0L78,472.13l-24.41,84Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1" d="M169.88,443.74h19.06V556.13H169.88Z" transform="translate(0 -441.67)" />
+                <path class="cls-1" d="M229.69,538.5h46.39v17.63H211V443.74h18.67Z" transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M334.71,443.87c15.64,0,28.65,5.44,38.91,16.2s15.64,24.11,15.64,39.93-5.26,29-15.64,39.93-23.27,16.2-38.91,16.2H289.89V443.74h44.82Zm0,94.76c10.78,0,19.58-3.63,26.16-10.89,6.83-7.26,10.25-16.59,10.25-27.61,0-11.28-3.42-20.35-10.25-27.61s-15.51-10.89-26.16-10.89h-26v77Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M489.81,524a29.65,29.65,0,0,1-10,23,34.52,34.52,0,0,1-24.32,9.21H406.74V443.74H452a34.08,34.08,0,0,1,23.66,8.95,28.61,28.61,0,0,1,9.73,22.18c0,9.85-3.94,17.38-11.56,22.95C483.76,503,489.81,512.35,489.81,524Zm-64.28-62.9v29.57h26.55a14.79,14.79,0,0,0,0-29.57Zm30.1,77.69a15.7,15.7,0,0,0,0-31.39h-30.1v31.52h30.1Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M526.22,538.55h50.47v17.64H507.55V443.74H575.9v17.64H526.22v29.18h45.61v17.51H526.22Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M658.45,556.19l-24.19-41H612.18v41H593.52V443.74h45.61c10.25,0,18.92,3.5,25.89,10.64a34.31,34.31,0,0,1,10.78,25.55,35.19,35.19,0,0,1-22.61,32.55l25.89,43.71Zm-46.27-95.07v37.61H639c10,0,17.87-8.3,17.87-18.8s-8-18.81-17.87-18.81Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M758.21,556.19l-24.05-41H712.08v41H693.41V443.68H739c10.26,0,18.93,3.51,25.9,10.64a34.39,34.39,0,0,1,10.78,25.57,35.2,35.2,0,0,1-22.61,32.57L779,556.19Zm-46.13-95.12V498.7h26.81c10,0,17.88-8.3,17.88-18.81s-8-18.82-17.88-18.82Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1" d="M792.65,443.69h18.67v112.5H792.65Z" transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M852.06,538.55h50.48v17.64H833.4V443.74h68.35v17.64H852.06v29.18h45.61v17.51H852.06Z"
+                    transform="translate(0 -441.67)" />
+                <path class="cls-1"
+                    d="M915.55,530.59l16.17-9.33c4.6,12.7,13.93,18.93,28.26,18.93s21.16-6,21.16-14.78A11.5,11.5,0,0,0,975.49,515c-3.68-2.47-10.52-5.19-20.24-8-10.92-3.24-16.3-5.31-23.93-10.24-7.36-5.19-11-12.58-11-22.69s3.55-17.76,10.78-23.59,15.77-8.81,25.9-8.81c18.27,0,32.33,9.33,39.69,24.76l-15.77,8.94C976.14,465,968.13,459.68,957,459.68c-10.92,0-17.88,5.45-17.88,14,0,8.3,5.52,12.19,23,17.5,4.34,1.43,7.49,2.47,9.46,3.25s4.87,1.81,8.42,3.24a31,31,0,0,1,8.28,4.53c6,4.67,12.48,12.32,11.69,23.08,0,10.11-3.67,18.28-11.17,24.24s-17.08,8.81-29.18,8.81C937.5,558.2,921.46,547.83,915.55,530.59Z"
+                    transform="translate(0 -441.67)" />
+            </g>
+        </symbol>
+
+        <symbol id="inst" viewBox="0 0 512 512.00006">
+            <g>
+                <path
+                    d="m261.039062 512c-1.695312 0-3.390624 0-5.097656-.007812-40.132812.097656-77.214844-.921876-113.277344-3.117188-33.0625-2.011719-63.242187-13.4375-87.28125-33.039062-23.195312-18.914063-39.035156-44.488282-47.078124-76.003907-7-27.4375-7.371094-54.371093-7.726563-80.421875-.257813-18.691406-.5234375-40.839844-.578125-63.363281.0546875-22.617187.320312-44.765625.578125-63.457031.355469-26.046875.726563-52.980469 7.726563-80.421875 8.042968-31.515625 23.882812-57.089844 47.078124-76.003907 24.039063-19.601562 54.21875-31.027343 87.285157-33.039062 36.0625-2.191406 73.152343-3.2148438 113.371093-3.1171875 40.144532-.0859375 77.214844.9257815 113.277344 3.1171875 33.0625 2.011719 63.242188 13.4375 87.28125 33.039062 23.199219 18.914063 39.035156 44.488282 47.078125 76.003907 7 27.4375 7.371094 54.375 7.726563 80.421875.257812 18.691406.527344 40.839844.578125 63.363281v.09375c-.050781 22.523437-.320313 44.671875-.578125 63.363281-.355469 26.046875-.722656 52.980469-7.726563 80.421875-8.042969 31.515625-23.878906 57.089844-47.078125 76.003907-24.039062 19.601562-54.21875 31.027343-87.28125 33.039062-34.535156 2.101562-70.011718 3.125-108.277344 3.125zm-5.097656-40.007812c39.480469.09375 75.730469-.902344 110.945313-3.042969 25-1.519531 46.675781-9.632813 64.433593-24.113281 16.414063-13.386719 27.71875-31.855469 33.597657-54.894532 5.828125-22.839844 6.164062-47.363281 6.488281-71.078125.253906-18.566406.519531-40.558593.574219-62.863281-.054688-22.308594-.320313-44.296875-.574219-62.863281-.324219-23.714844-.660156-48.238281-6.488281-71.082031-5.878907-23.039063-17.183594-41.507813-33.597657-54.894532-17.757812-14.476562-39.433593-22.589844-64.433593-24.109375-35.214844-2.144531-71.464844-3.132812-110.851563-3.046875-39.472656-.09375-75.726562.902344-110.941406 3.046875-25 1.519531-46.675781 9.632813-64.433594 24.109375-16.414062 13.386719-27.71875 31.855469-33.597656 54.894532-5.828125 22.84375-6.164062 47.363281-6.488281 71.082031-.253907 18.582031-.519531 40.585937-.574219 62.910156.054688 22.226563.320312 44.234375.574219 62.816406.324219 23.714844.660156 48.238281 6.488281 71.078125 5.878906 23.039063 17.183594 41.507813 33.597656 54.894532 17.757813 14.476562 39.433594 22.589843 64.433594 24.109374 35.214844 2.144532 71.476562 3.144532 110.847656 3.046876zm-.953125-90.992188c-68.921875 0-125-56.074219-125-125s56.078125-125 125-125c68.925781 0 125 56.074219 125 125s-56.074219 125-125 125zm0-210c-46.867187 0-85 38.132812-85 85s38.132813 85 85 85c46.871094 0 85-38.132812 85-85s-38.128906-85-85-85zm139-80c-16.566406 0-30 13.429688-30 30s13.433594 30 30 30c16.570313 0 30-13.429688 30-30s-13.429687-30-30-30zm0 0">
+                </path>
+            </g>
+        </symbol>
+
+        <symbol id="Layer_2" viewBox="0 0 152 152">
+            <g>
+                <path
+                    d="m60.4 84.5h-16.1c-2.6 0-3.4-1-3.4-3.4 0-6.5 0-13.2 0-19.7 0-2.6 1-3.6 3.4-3.6h16.1v-14.3c-.2-6.3 1.3-12.7 4.4-18.4 3.3-5.7 8.5-9.9 14.5-12 4.1-1.5 8.1-2.1 12.4-2.1h15.9c2.3 0 3.3 1 3.3 3.3v18.5c0 2.3-1 3.3-3.3 3.3-4.4 0-8.8 0-13.2.2s-6.7 2.1-6.7 6.7c-.2 4.9 0 9.6 0 14.6h18.7c2.6 0 3.6 1 3.6 3.6v19.7c0 2.6-.8 3.6-3.6 3.6h-18.5v52.9c0 2.8-1 3.7-3.7 3.7h-20.3c-2.4 0-3.4-1-3.4-3.4z">
+                </path>
+            </g>
+        </symbol>
+    </svg>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+
+                <div class="header-logo">
+                    <img src="img/table diary.png" alt="">
+                </div>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+                <label for="nav-toggle" class="nav-toggle" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <nav class="nav">
+                    <a class="nav-link" href="#">Рецепты</a>
+                    <a class="nav-link" href="#">Блог</a>
+                    <a class="nav-link" href="#">О нас</a>
+                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="#">Поиск</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro-inner">
+                <h1 class="intro-title">Простая кулинария для повседневной жизни</h1>
+
+                <h2 class="intro-subtitle">
+                    Домашние рецепты, которые получаются с первого раза. От завтраков до ужинов – готовьте с удовольствием!
+                </h2>
+
+                <a class="btn-1  btn--one" href="#">Найти больше</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="features">
+
+            <div class="features-item">
+                <img class="features-icon" src="img/выпечка.png" alt="">
+                <h4 class="features-title">Выпечка</h4>
+                <div class="features-text">Хрустящие багеты, воздушные булочки, пироги с начинкой – печём с душой</div>
+            </div>
+
+            <div class="features-item">
+                <img class="features-icon" src="img/десерты.png" alt="">
+                <h4 class="features-title">Десерты</h4>
+                <div class="features-text">Чизкейки, муссы, пирожные и полезные сладости</div>
+            </div>
+
+            <div class="features-item">
+                <img class="features-icon" src="img/сушироллы.png" alt="">
+                <h4 class="features-title">Суши, роллы</h4>
+                    <div class="features-text">Домашние суши и роллы – это тонкий баланс между классическими традициями и современными вкусами</div>
+            </div>
+
+            <div class="features-item">
+                <img class="features-icon" src="img/закуски.png" alt="">
+                <h4 class="features-title">Закуски</h4>
+                <div class="features-text">Брускетты, начос и дипы за 20 минут</div>
+            </div>
+
+            <div class="features-item">
+                <img class="features-icon" src="img/лапша.png" alt="">
+                <h4 class="features-title">Лапша</h4>
+                <div class="features-text">Удон, соба, фунчоза и рисовая лапша с соусами и овощами</div>
+            </div>
+
+            <div class="features-item">
+                <img class="features-icon" src="img/напитки.png" alt="">
+                <h4 class="features-title">Напитки</h4>
+                <div class="features-text">Свежие соки, компоты и другие напитки из натуральных ингредиентов</div>
+            </div>
+        </div> <!--features-->
+    </div> <!--container-->
+
+
+    <div class="works">
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/горячийшоколад.png" alt="">
+            <div class="works-content">
+                <div class="works-title">Горячий шоколад</div>
+                <div class="works-text">Простой рецепт шоколадного напитка с маршмэллоу</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/суши.png" alt="">
+            <div class="works-content">
+                <div class="works-title">Суши</div>
+                <div class="works-text">Суши с нежным лососем</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/картофельныечипсысхрустящимлуком.png" alt="">
+            <div class="works-content">
+                <div class="works-title">Картофельные чипсы с хрустящим луком</div>
+                <div class="works-text">Хрустящий перекус из картофеля и лука</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/шоколадныйсэндвич.png" alt="">
+            <div class="works-content">
+                <div class="works-title">Шоколадный сэндвич</div>
+                <div class="works-text">Мягкий как облако с молочной начинкой внутри</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/мягкиймолочныйхлеб(выпечка).png" alt="">
+            <div class="works-content">
+                <div class="works-title">Мягкий молочный хлеб</div>
+                <div class="works-text">Пышная домашняя выпечка со сливочным вкусом</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/домашнееклубничноемороженое.png" alt="">
+            <div class="works-content">
+                <div class="works-title">Домашнее клубничное мороженое</div>
+                <div class="works-text">Освежающий десерт с ягодной кислинкой</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/корейский кимбап(роллы).png" alt="">
+            <div class="works-content">
+                <div class="works-title">Корейский кимбап</div>
+                <div class="works-text">Роллы с овощами и пикантным кунжутом</div>
+            </div>
+        </div>
+
+        <div class="works-item">
+            <img class="works-img" src="img/картинкиработы/сливочнаяарахисоваялапша.png" alt="">
+            <div class="works-content">
+                <div class="works-title">Сливочная арахисовая лапша</div>
+                <div class="works-text">Сытный ужин с ореховым соусом за 20 минут</div>
+            </div>
+        </div>
+    </div> <!--works-->
+
+
+    <!--books-->
+    <div class="books">
+        <div class="container">
+            <h2 class="books-title">Наши книги</h2>
+            <div class="books-inner">
+
+                <div class="books-item">
+                    <img class="books-photo" src="img/книжки/фуд1.jpg" alt="">
+                    <div class="books-name">Вкусная Корея дома
+                    </div>
+                    <div class="books-prof">Jjajangmyeon</div>
+                    <div class="books-text">
+                        <p>Нежная лапша в густом сливочно–карамелизированным луком и кусочками мяса.</p>
+                    </div>
+
+                    <div class="social">
+                        <a class="social-item" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#XMLID_807_"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-2" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-3" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer_1"></use>
+                            </svg>
+                        </a>
+                    </div> <!--social-->
+                </div> <!--item-->
+
+                <div class="books-item">
+                    <img class="books-photo" src="img/книжки/фуд2.jpg" alt="">
+                    <div class="books-name">Корейский суп с морепродуктами</div>
+                    <div class="books-prof">Jjamppong</div>
+                    <div class="books-text">
+                        <p>Пряный, согревающий бульон с сочными креветками, мидиями и хрустящим кальмаром.</p>
+                    </div>
+
+                    <div class="social">
+                        <a class="social-item" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#XMLID_807_"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-2" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-3" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer_1"></use>
+                            </svg>
+                        </a>
+                    </div> <!--social-->
+                </div> <!--item-->
+
+                <div class="books-item">
+                    <img class="books-photo" src="img/книжки/фуд3.jpg" alt="">
+                    <div class="books-name">Пибимпап</div>
+                    <div class="books-prof">Bibimbab</div>
+                    <div class="books-text">
+                        <p>Рис с обжаренными овощами, острой пастой кочхуджан и нежным яичным жлтком сверху.</p>
+                    </div>
+
+                    <div class="social">
+                        <a class="social-item" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#XMLID_807_"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-2" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-3" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer_1"></use>
+                            </svg>
+                        </a>
+                    </div> <!--social-->
+                </div> <!--item-->
+
+                <div class="books-item">
+                    <img class="books-photo" src="img/книжки/фуд4.jpg" alt="">
+                    <div class="books-name">Острая корейская кухня</div>
+                    <div class="books-prof">Tteokbokki</div>
+                    <div class="books-text">
+                        <p>Мягкие рисовые палочки в жгуче–сладком соусе с рыбными котлетами. Это хит уличной еды Сеула!</p>
+                    </div>
+
+                    <div class="social">
+                        <a class="social-item" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#XMLID_807_"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-2" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-3" href="#" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="#Layer_1"></use>
+                            </svg>
+                        </a>
+                    </div> <!--social-->
+                </div> <!--item-->
+
+            </div> <!--books_inner-->
+        </div> <!--container-->
+    </div>
+
+
+    <!--reviews-->
+    <div class="reviews">
+        <div class="container">
+
+            <div class="reviews-item">
+
+                <div class="reviews-photo">
+                    <img class="reviews-img" src="img/картинкидляотзывов/сырно-картофельный хлеб.jpg" alt="">
+                </div>
+
+                <div class=" reviews-content">
+                    <div class="reviews-name">Сырно-картофельный хлеб</div>
+                    <div class="reviews-text">
+                        <p>"Я почти уверен, что можно добавить пармезан, чеснок, карамелизованный лук, орегано или даже шпинат и получить восхитительные вариации этого же рецепта. Отлично подойдет для вечера, проведенного за приготовлением еды с друзьями. Мне очень нравится, спасибо!"</p>
+                        <p>Владислав</p>
+                        <br>
+                        <p>"Я приготовила это с измельченным чесноком и смесью итальянских трав. Подавала с томатным соусом для итальянской пиццы, загущенным пармезаном. Получилось превосходно!"
+                        </p>
+                        <p>Анна</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> <!--container-->
+    </div> <!--reviews-->
+
+
+    <!--button_end-->
+    <div class="button-end">
+        <div class="container">
+            <h3 class="button-end-title">Хотите готовить так же, как мы?</h3>
+            <div class="button-end-text">
+                <p>Более 200 рецептов на любой вкус и для любого настроения</p>
+            </div>
+            <a class="btn-2  btn--two" href="#">Посмотреть все рецепты</a>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-inner">
+                <div class="footer-block">
+                    <h4 class="footer-title">Полезное</h4>
+                    <div class="footer-text">
+                        <div>Политика конфиденциальности</div>
+                        <div>Сотрудничество</div>
+                        <div>Вопросы и ответы</div>
+                    </div>
+                </div>
+
+                <div class="footer-block">
+                    <h4 class="footer-title">Мы в социальных сетях</h4>
+                    <div class="social  social--footer">
+                        <a class="social-item-end" href="#" target="_blank">
+                            <svg class="social-icon-end">
+                                <use xlink:href="#XMLID_807_"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-end" href="#" target="_blank">
+                            <svg class="social-icon-end">
+                                <use xlink:href="#inst"></use>
+                            </svg>
+                        </a>
+                        <a class="social-item-end" href="#" target="_blank">
+                            <svg class="social-icon-end">
+                                <use xlink:href="#Layer_2"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-block">
+                    <h4 class="footer-title">О table diary</h4>
+                    <div class="footer-text">
+                        <p>Готовим простые, вкусные и проверенные блюда. Присоединяйтесь!</p>
+                    </div>
+                </div>
+
+            </div> <!--footer_inner-->
+        </div> <!--container-->
+
+        <div class="by">
+            <div class="container">
+                <div class="by-text">
+                    Сделано с любовью и корицей <span>by cat_coconut!</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
